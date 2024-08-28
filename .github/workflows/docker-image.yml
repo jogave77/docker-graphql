@@ -32,8 +32,8 @@ jobs:
 
     - name: Push Docker Image
       run: |
-        docker push jogave/docker-graphql:0.0.2 .
-        docker push jogave/docker-graphql:latest .
+        docker push jogave/docker-graphql:0.0.2 
+        docker push jogave/docker-graphql:latest 
         
       
     # - name: Build the Docker image
